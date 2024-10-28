@@ -132,12 +132,15 @@
             <h2 class="titulo">FALE <span> COMIGO.</span></h2>
         
 
-            <form action="">
-                <input type="text" name="" id="" placeholder="Seu nome completo:" required> 
-                <input type="text" name="" id="" placeholder="Seu email:" required> 
-                <input type="text" name="" id="" placeholder="Seu celular:"> 
-                <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+ <form action="https://formsubmit.co/brayan.cardoso@estudante.ifgoiano.edu.br" method="POST">
+                <input type="text" name="nome" placeholder="Seu nome completo:" required> 
+                <input type="email" name="email" placeholder="Seu email:" required> 
+                <input type="text" name="celular" placeholder="Seu celular:"> 
+            
+                <textarea name="mensagem" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
                 <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div><!--interface-->
       </section><!--formulario-->
