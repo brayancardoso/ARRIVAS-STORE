@@ -52,6 +52,7 @@ body{
 /* Estilo do Cabeçalho */
 header{
 padding: 40px;
+text-align: center;
 }
 
 header > .interface{
@@ -83,6 +84,7 @@ header nav ul{
     /*ESTILO DO TOPO DO SITE */
     section.topo-do-site{
         padding: 40px 4%;
+       text-align: center;
     }
    
 
@@ -106,6 +108,8 @@ header nav ul{
     .topo-do-site .img-topo-site img{
         position: relative;
        animation: flutuar 2s ease-in-out infinite alternate;
+        margin: auto;
+       display: block;
     }
      
     @keyframes flutuar{
@@ -171,6 +175,7 @@ transition: .2s;
      font-size: 32px;
      line-height: 40px;
      margin-bottom: 20px;
+     text-align: center;
    }
 
    .sobre .txt-sobre h2 span{
@@ -249,7 +254,8 @@ transition: .2s;
 
 footer{
     padding: 60px 4%;
-    box-shadow: 0 40px 10px #ffffff1d; 
+    box-shadow: 0 40px 10px #ffffff1d;
+    text-align: center;
     
 
 }
