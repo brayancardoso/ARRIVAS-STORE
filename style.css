@@ -178,6 +178,16 @@ transition: .2s;
     
 
         }
+
+    .img-sobre.img-sobre img{
+        margin: auto;
+        display: block;
+        align-items: center;
+     
+
+    }
+
+   
     section.sobre .flex{
         align-items: center;
         gap: 60px;
