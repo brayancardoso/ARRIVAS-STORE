@@ -3,6 +3,7 @@
    padding:0;
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
+
   
 
 
@@ -11,7 +12,8 @@
 body{
     background-color: black;
     height: 100vh;
-}
+   
+ 
 
 .container img { max-width: 150px; }
 
@@ -19,10 +21,12 @@ body{
 
     max-width: 1280px;
     margin: 0 auto;
+    
 } 
 
 .flex .img-topo-site{
     display:flex;
+
 } 
 
 
@@ -39,9 +43,9 @@ body{
  }
 
  h2.titulo{
-    color: #fff;
+    color: white;
     font-size: 32px;
-    text-align: center;
+    
  }
 
   button:hover, form .btn-enviar input:hover{
@@ -84,7 +88,7 @@ header nav ul{
     /*ESTILO DO TOPO DO SITE */
     section.topo-do-site{
         padding: 40px 4%;
-       text-align: center;
+        text-align: center;
     }
    
 
@@ -96,8 +100,8 @@ header nav ul{
 
     .topo-do-site  h1{
         color: #fff;
-        font-size: 38px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 45px;
     }
 
     .topo-do-site  p{
@@ -108,8 +112,12 @@ header nav ul{
     .topo-do-site .img-topo-site img{
         position: relative;
        animation: flutuar 2s ease-in-out infinite alternate;
-        margin: auto;
+       margin: auto;
        display: block;
+    
+       
+    
+       
     }
      
     @keyframes flutuar{
@@ -159,11 +167,14 @@ transition: .2s;
      /* ESTIILO DO SOBRE */
         section.sobre{
        padding: 80px 4%;
+      
+    
 
         }
     section.sobre .flex{
         align-items: center;
         gap: 60px;
+        
 
     }
         
@@ -197,59 +208,11 @@ transition: .2s;
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
+   
+   
    }
     
-   /* ESTILO DO FORMULARIO DE CONTATO */
-   section.formulario{
-    padding: 80px 4%;
-   }
-
-   form{
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 40px;
-
-   }
-   form input, form textarea{
-    width: 100%;
-    background-color: rgb(63, 63, 63);
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: #fff;
-    font-size: 18px;
-   }
-   
-   form input::placeholder{
-    color: #fff;
-   }
-
-   form textarea{
-    resize: none;
-    max-height: 180px;
-    text-align: center;
-   }
-
-   form .btn-enviar{
-    margin-top: 20px;
-
-   }
-   form .btn-enviar input{
-   width: 120px;
-   background-color: #15bc3f;
-   color: black;
-   font-weight: 700;
-   cursor: pointer;
-   transition: .2s;
-
-   }
- 
+  
 /*ESTILO DO RODAPÉ */
 
 footer{
@@ -283,3 +246,4 @@ footer .line-footer p a{
     color: #fff;
 }
 
+}
